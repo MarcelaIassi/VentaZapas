@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+body{
+    margin: 0em;
+    padding: 0;
+    
+    /* background-image: linear height: 6em;-gradient(120deg, #5e7ad6 0%, #8fe8f4 100%);*/
+    
+    width: 100%;
+    
+}
+
+/* -----INDEX ----*/
+
+#LogoInicio {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    -webkit-animation: LogoInicio 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: LogoInicio 5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+ @-webkit-keyframes LogoInicio {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes LogoInicio {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @media (max-width:254px){
+   
+    #LogoInicio {
+        text-align: center;
+        margin-top: 35%;
+       
+        
+
+        flex-direction: column;
+
+    }   
+}
+/*-------INDEX-----------*/
+
+
+/* ENCABEZADO*/
+header{
+    /*border: black 0.5rem solid;*/
+   /* background-color: black;*/
+    
+    height: auto;
+    width: auto;
+    
+}
+.Logo{
+    width: 300px;
+    height: auto;
+    padding: 1em 1em 0.5em 1em;
+}
+
+.encabezado{
+    display: flex;
+    height: 7em;
+}
+
+/*.titulo1{
+    left: auto;
+    position: relative;
+    top: auto;
+    width: auto;
+    display: inline-block;
+  
+    border:black 1rem solid;
+    height: auto;
+    margin-left: 17vw;
+  
+
+}
+.titulo2{
+    display: flex;
+   /* margin-left: 0.5rem;
+  /*border: red 0.2rem solid;
+ 
+  
+}
+.titulo2 div{
+    font-size: 0.8vw;
+
+}*/
+
+h1{
+    padding-left: 15vw;
+}
+
+.detalle h1{
+    padding-left: 3vw;
+}
+.subtitulo{
+    text-align: center; 
+    color:black;
+    padding-top: 1.5rem;
+    font-size: 2.7vw;
+    font-weight: bold;
+    
+}
+
+
+.mapa{
+    Color:red;
+    margin-left: 1vw;
+    font-size: 1vw;
+    font-weight: bold;
+    padding-left: 17vw;
+}
+.descripcion{
+    display: inline-block;
+    padding-left: 1em;
+    text-align: center; 
+    color: red;
+    font-size: 1vw;
+    font-weight: bold;
+    
+}
+/*-------- ENCABEZADO -------*/
+
+
+
+/*BARRA DE MENU*/
+nav{
+    text-align: right;
+    font-size: 1em;
+    height: 2.5rem;   
+
+}
+.menu{
+    display: flex;
+    background-color:black;
+    
+}
+.enlace{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold; 
+    color:red;
+}
+.enlace:hover {
+   
+    background: white;
+    color: black;
+  
+}
+/* -------- BARRA DE MENU ------*/
+
+/* DESTACADOS  */
+h2{
+    background-color: red;
+    font-weight: bold;
+    padding: 0.5rem;
+    /*border-top: black 0.5rem solid;*/
+    border-bottom: black 0.3rem solid;
+}
+
+section{
+    flex:auto;
+    background-color:white;
+    padding: 5px;
+    justify-content:space-between;
+   /* border: black 0.5rem solid;*/
+    min-height: 350px;
+    max-height: 1200px;
+}
+
+main>div{
+    text-align: center;
+ /*   border: 0.5em red solid;
+ /*   height: 400px;*/
+ 
+}
+ main div img{
+    width: 25%;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+h4{
+    padding: 0.5rem;
+    font-size: 1.5vw;
+    color: red;
+    font-weight: bold;
+    
+}
+
+h4 a{ 
+    color: red;
+    padding: 1vw;
+}
+
+
+
+/*------ DESTACADOS ------*/
+
+/* FORMULARIO CONTACTO */
+
+form{
+    padding-left:  2rem;
+    padding-right:  2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: left;
+    border: 0.5rem black solid;
+}
+/*.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: chartreuse;
+    padding-top: 20px;
+}
+/*---- FORMULARIO CONTACTO------------*/
+
+
+/*NOSOTROS*/
+
+.resumen{
+    flex: auto;
+    max-height:auto;
+    /*border:red 0.5rem solid;*/
+}
+
+.nosotros{
+    display: flex;
+    /*border:black 0.5rem solid;*/
+    height: 350px;
+  /* background-color: red;*/
+    margin: 3vw 3vw 0vw 3vw;
+
+}
+
+
+.detalle{
+    position: relative;
+    display: inline-block;
+   /* border:black 1rem solid;*/
+    max-width: 700px;
+    max-height: 500px;
+    height: auto;
+    text-align: justify;
+    padding: 1vw;
+ 
+}
+.gmapa{
+   
+   /* max-width: 500px;
+    max-height: 700px;*/
+    float: right; 
+}
+.detalle p{
+    padding: 3vw 4vw 1vw 3vw;
+}
+.gmapa iframe{
+    width: 500px;
+    height: 300px;
+}
+
+/* CATALOGO  */
+main{
+    width: 100%;
+    height: 100%;
+}
+/*-----CATALOGO -----*/
+/* FOOTER*/
+footer{
+    background-color: black;
+}
+.iconos{
+    text-align: center;
+    font-size: 1.3em;
+    padding: 2%;
+    border: 1em;
+}
+span{
+    display:block;
+    font-weight: bold;
+    font-size: 0.6em;
+    color: white;
+}
+i{
+    border:none; 
+}
+a{
+    text-decoration: none;
+    padding: 0.1em;
+    Color: white;  
+
+}
+/* ---- FOOTER INDEX ---- */
+.iconosInicio{
+    background-color:white;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 2%;
+    border: 1em;
+}
+
+.iconoInicio > span{
+    display:block;
+    font-weight: bold;
+    font-size: 0.6em;
+    color:black
+}
+.iconosInicio i{
+    border:none; 
+}
+  .iconosInicio a{
+    text-decoration: none;
+    padding: 0.1em;
+    Color: black
+  
+}
+
+@media (max-width:320px){
+    
+    #LogoInicio {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .Logo{
+        width: 30%;
+        height: 15vw;
+        padding: 0.1em;    
+    }
+    .Logo img{
+        width: 45%;
+    }
+    .encabezado{
+        display: flex;
+        height: 3em;
+    }
+   
+    .descripcion{
+    
+       
+        font-size: 1vw;
+     
+    }
+    
+    .menu{
+        text-align: right;
+        font-size: 0.5em;
+        height: 7vw;   
+    }
+    .menu a{
+        padding: 0.5rem;
+    }
+    h2{
+        font-size: 0.5em;
+        padding: 0.1rem;
+        border-bottom: black 0.1vw solid;
+        height: 2vw;
+    }
+    .mapa{
+      
+        font-size: 1vw;
+        
+    }
+    .detalle{
+        display: flex;
+       
+        
+    }
+    .detalle h1{
+        font-size: 2.5vw;
+    }
+    .detalle p{
+        font-size: 2.5vw;
+    }
+   
+    .gmapa{
+        
+        width: 100px;
+        height: 100px;
+        
+    }
+    
+    .gmapa iframe{
+        width: 150px;
+        height: 200px;
+    }
+   
+    footer{
+        height: 15vw;
+    }
+    .iconos {
+        text-align: center;
+      
+        /*border: 1em;*/
+    }
+    .iconos span{
+        display: block;
+        font-weight: bold;
+        font-size: 2.5vw;
+        color: white;
+        margin-top: 0.5vw;
+        margin-bottom: 0.2vw;
+    }
+    .iconos i{
+        border:none; 
+        
+    }
+    iconos a{
+        text-decoration: none;
+        padding: 0.1em;
+        Color: white;
+    
+    }
+    /* ---- FOOTER INDEX ---- */
+    .iconosInicio{
+        background-color:white;
+        text-align: center;
+        font-size: 1.3em;
+        padding: 2%;
+        border: 1em;
+    }
+    
+    .iconoInicio > span{
+        display:block;
+        font-weight: bold;
+        font-size: 0.6em;
+        color:black
+    }
+    .iconosInicio i{
+        border:none; 
+    }
+    .iconosInicio a{
+        text-decoration: none;
+        padding: 0.1em;
+        Color: black
+      
+    }
+    
+}
+
