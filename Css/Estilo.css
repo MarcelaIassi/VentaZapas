@@ -11,6 +11,8 @@ body{
     /* background-image: linear height: 6em;-gradient(120deg, #5e7ad6 0%, #8fe8f4 100%);*/
     
     width: 100%;
+    height: auto;
+    
     
 }
 
@@ -60,97 +62,59 @@ body{
 
 /* ENCABEZADO*/
 header{
-    /*border: black 0.5rem solid;*/
-   /* background-color: black;*/
-    
     height: auto;
-    width: auto;
-    
-}
-.Logo{
-    width: 300px;
-    height: auto;
-    padding: 1em 1em 0.5em 1em;
+    width: auto; 
 }
 
 .encabezado{
     display: flex;
     height: 7em;
 }
-
-/*.titulo1{
-    left: auto;
-    position: relative;
-    top: auto;
-    width: auto;
-    display: inline-block;
-  
-    border:black 1rem solid;
+.Logo{
+    width: 300px;
     height: auto;
-    margin-left: 17vw;
-  
-
+    padding: 1em 1em 0.5em 1em;
 }
-.titulo2{
-    display: flex;
-   /* margin-left: 0.5rem;
-  /*border: red 0.2rem solid;
- 
-  
-}
-.titulo2 div{
-    font-size: 0.8vw;
-
-}*/
-
-h1{
-    padding-left: 15vw;
+.titulo{
+    width: 800px;
+    height: auto; 
 }
 
-.detalle h1{
-    padding-left: 3vw;
-}
+
 .subtitulo{
-    text-align: center; 
+    /*text-align: center; */
     color:black;
     padding-top: 1.5rem;
+    padding-left: 12rem;
     font-size: 2.7vw;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
-
-
 .mapa{
     Color:red;
-    margin-left: 1vw;
+    margin-left: 0.5vw;
     font-size: 1vw;
     font-weight: bold;
     padding-left: 17vw;
 }
-.descripcion{
-    display: inline-block;
-    padding-left: 1em;
-    text-align: center; 
+
+.descripcionnosotros{
+    text-align:left; 
+    padding-left: 15rem;
     color: red;
-    font-size: 1vw;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
-/*-------- ENCABEZADO -------*/
 
-
+/*-------- FIN ENCABEZADO -------*/
 
 /*BARRA DE MENU*/
 nav{
     text-align: right;
     font-size: 1em;
     height: 2.5rem;   
-
 }
 .menu{
     display: flex;
-    background-color:black;
-    
+    background-color:black;  
 }
 .enlace{
     padding: 10px;
@@ -158,13 +122,11 @@ nav{
     font-weight: bold; 
     color:red;
 }
-.enlace:hover {
-   
+.enlace:hover {  
     background: white;
     color: black;
-  
 }
-/* -------- BARRA DE MENU ------*/
+/* -------- FIN BARRA DE MENU ------*/
 
 /* DESTACADOS  */
 h2{
@@ -174,7 +136,6 @@ h2{
     /*border-top: black 0.5rem solid;*/
     border-bottom: black 0.3rem solid;
 }
-
 section{
     flex:auto;
     background-color:white;
@@ -184,7 +145,6 @@ section{
     min-height: 350px;
     max-height: 1200px;
 }
-
 main>div{
     text-align: center;
  /*   border: 0.5em red solid;
@@ -197,26 +157,20 @@ main>div{
     margin-left: 2rem;
     margin-right: 2rem;
 }
-
 h4{
     padding: 0.5rem;
     font-size: 1.5vw;
     color: red;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
-
 h4 a{ 
     color: red;
     padding: 1vw;
 }
 
-
-
-/*------ DESTACADOS ------*/
+/*------ FIN DESTACADOS ------*/
 
 /* FORMULARIO CONTACTO */
-
 form{
     padding-left:  2rem;
     padding-right:  2rem;
@@ -236,23 +190,22 @@ form{
 
 
 /*NOSOTROS*/
+h1{
+    padding-left: 10vw;
+}
 
 .resumen{
     flex: auto;
     max-height:auto;
     /*border:red 0.5rem solid;*/
 }
-
 .nosotros{
     display: flex;
     /*border:black 0.5rem solid;*/
     height: 350px;
   /* background-color: red;*/
     margin: 3vw 3vw 0vw 3vw;
-
 }
-
-
 .detalle{
     position: relative;
     display: inline-block;
@@ -262,10 +215,8 @@ form{
     height: auto;
     text-align: justify;
     padding: 1vw;
- 
 }
-.gmapa{
-   
+.gmapa{   
    /* max-width: 500px;
     max-height: 700px;*/
     float: right; 
@@ -273,17 +224,23 @@ form{
 .detalle p{
     padding: 3vw 4vw 1vw 3vw;
 }
+.detalle h1{
+    padding-left: 3vw;
+}
 .gmapa iframe{
     width: 500px;
     height: 300px;
 }
+/* --- FIN NOSOTROS --*/
+
 
 /* CATALOGO  */
 main{
     width: 100%;
     height: 100%;
 }
-/*-----CATALOGO -----*/
+/*----- FIN CATALOGO -----*/
+
 /* FOOTER*/
 footer{
     background-color: black;
@@ -307,8 +264,9 @@ a{
     text-decoration: none;
     padding: 0.1em;
     Color: white;  
-
 }
+/* ---- FIN FOOTER ---- */
+
 /* ---- FOOTER INDEX ---- */
 .iconosInicio{
     background-color:white;
@@ -317,7 +275,6 @@ a{
     padding: 2%;
     border: 1em;
 }
-
 .iconoInicio > span{
     display:block;
     font-weight: bold;
@@ -331,58 +288,105 @@ a{
     text-decoration: none;
     padding: 0.1em;
     Color: black
-  
-}
+ }
+/* ---- FIN FOOTER INDEX ---- */
 
 @media (max-width:320px){
     
-    #LogoInicio {
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
+    /*#LogoInicio {
+        text-align: center;
+        margin-top: 70%;
+       
+    }*/
     .Logo{
-        width: 30%;
+        width: 35%;
         height: 15vw;
-        padding: 0.1em;    
+        padding: 0.1em;
     }
     .Logo img{
-        width: 45%;
+        margin-top: 3px;
+        margin-left: 3px;
+        width: 100%;
     }
     .encabezado{
-        display: flex;
         height: 3em;
     }
-   
-    .descripcion{
-    
+    .subtitulo{
+          /*text-align: center; */
+        padding-left: 5rem;
+        font-size: 3vw;
+        padding-top: 1.5rem;
+    }
        
+    .descripcionnosotros{
         font-size: 1vw;
-     
+        padding-left: 30vw;
+    }
+    .mapa{
+        
+        font-size: 1vw;
+        padding-left: 17vw;
+        margin-left: 1vw;
     }
     
+
+    /* BARRA DE MENU */
     .menu{
         text-align: right;
         font-size: 0.5em;
-        height: 7vw;   
+        height: 8vw;
+       
     }
     .menu a{
         padding: 0.5rem;
     }
+    /* --- FIN BARRA DE MENU ---*/
+    
+    /* DESTACADOS */
     h2{
         font-size: 0.5em;
-        padding: 0.1rem;
+        padding: 0.5rem;
+        margin-bottom: 0.8rem;
         border-bottom: black 0.1vw solid;
-        height: 2vw;
+        height: 7.5vw;
     }
-    .mapa{
-      
-        font-size: 1vw;
-        
+   
+    main div img{
+        width: 25%; 
     }
-    .detalle{
-        display: flex;
-       
-        
+    h4{
+        padding: 0.1rem;  
+    }
+    
+    /* ----FIN DESTACADOS ---- */
+ 
+    /* CONTACTO */
+    .h3{
+        font-size: 1em;
+    }
+    /*form{
+        font-size: 10PX;
+    
+    }*/
+
+    /* ---- FIN CONTACTO ---- */
+    
+    /* NOSOTROS */
+    
+    .resumen{
+        min-height: 350px;
+        max-height: 400px;
+    }
+    .nosotros{
+        display: inline-block;
+    
+        height: 450px;
+
+        margin: 3vw 3vw 0vw 3vw;
+    }
+    .detalle{   
+       width: 300px;
+        height: 130px;
     }
     .detalle h1{
         font-size: 2.5vw;
@@ -390,69 +394,207 @@ a{
     .detalle p{
         font-size: 2.5vw;
     }
-   
-    .gmapa{
-        
-        width: 100px;
-        height: 100px;
-        
-    }
+    .gmapa{  
     
+        float: none;
+        padding: 3vw ;
+        width: 300px;
+        height: 120px;
+    }
     .gmapa iframe{
-        width: 150px;
-        height: 200px;
+        width: 275px;
+        height: 100px;
     }
-   
+    /* CATALOGO */
+
+
+    /* ------ CATALOGO ----- */
+    main p{
+        font-size: 2vw ;
+    }
+     /* ---- FOOTER ---- */
     footer{
-        height: 15vw;
-    }
-    .iconos {
-        text-align: center;
-      
-        /*border: 1em;*/
+        height: 10vw;
     }
     .iconos span{
-        display: block;
-        font-weight: bold;
-        font-size: 2.5vw;
-        color: white;
-        margin-top: 0.5vw;
-        margin-bottom: 0.2vw;
+        font-size: 1.7vw;
+        padding: 0.5em;
     }
-    .iconos i{
-        border:none; 
-        
+    .iconos {
+        font-size: 1.7VW;
     }
-    iconos a{
-        text-decoration: none;
-        padding: 0.1em;
-        Color: white;
+     /* ---- FIN FOOTER ---- */
     
-    }
-    /* ---- FOOTER INDEX ---- */
-    .iconosInicio{
-        background-color:white;
+     /* ---- FOOTER INDEX ---- */
+    
+     #LogoInicio {
+        margin-top: 35%;
         text-align: center;
-        font-size: 1.3em;
-        padding: 2%;
-        border: 1em;
+     
+    
+     }
+     .iconosInicio{
+        font-size: 2VW;
+   
     }
     
     .iconoInicio > span{
-        display:block;
-        font-weight: bold;
-        font-size: 0.6em;
-        color:black
+        font-size: 2vw;
+        padding: 0.7em;
     }
-    .iconosInicio i{
-        border:none; 
+    /* ---- FIN FOOTER INDEX ---- */
+}
+ 
+@media screen and (min-width: 480px) and (max-width: 800px){
+   /*  INDEX  */
+    #LogoInicio {
+        margin-top: 15%;
     }
-    .iconosInicio a{
-        text-decoration: none;
-        padding: 0.1em;
-        Color: black
-      
+    /*  --- FIN INDEX --- */
+
+    /* HEADER */
+    .Logo{
+        width: 15%;
+        height: 15vw;
+        padding: 0.2em;
+    }
+    .Logo img{
+        margin-top: 2px;
+        margin-left: 2px;
+        width: 60%;
+    }
+    .encabezado{
+        height: 4.5em;
+    }
+    .subtitulo{
+          /*text-align: center; */
+        padding-left: 12rem;
+        font-size: 3vw;
+        padding-top: 1rem;
+    }
+       
+    .descripcionnosotros{
+        font-size: 1.5vw;
+        padding-left: 26vw;
+    }
+    /*.mapa{
+        
+        font-size: 1vw;
+        padding-left: 17vw;
+        margin-left: 1vw;
+    }*/
+    /* ---- FIN HEADER -----*/
+
+    /* BARRA DE MENU */
+    .menu{
+        text-align: right;
+        font-size: 0.9em;
+        height: 4.5vw;
+       
+    }
+    .menu a{
+        padding: 0.5rem;
+    }
+    /* --- FIN BARRA DE MENU ---*/
+    
+    /* DESTACADOS */
+    h2{
+        font-size: 0.9em;
+        padding: 0.5rem;
+        margin-bottom: 0.5rem;
+        border-bottom: black 0.1vw solid;
+        height: 5vw;
+    }
+   
+    main div img{
+        width: 25%; 
+    }
+    h4{
+        padding: 0.1rem;  
     }
     
-}
+    /* ----FIN DESTACADOS ---- */
+ 
+    /* CONTACTO */
+    .h3{
+        font-size: 1em;
+    }
+    
 
+    /* ---- FIN CONTACTO ---- */
+    
+    /* NOSOTROS */
+    
+    .resumen{
+        min-height: 650px;
+        max-height: 450px;
+    }
+    .nosotros{
+        display: inline-block;
+        width: 750px;
+        height: 450px;
+
+        margin: 3vw 0vw 0vw 3vw;
+    }
+    .detalle{   
+        width: 750px;
+        padding-left: 3.5vw;
+        padding-right: 0vw;
+        height: 250px;
+    }
+    .detalle h1{
+        font-size: 2.5vw;
+    }
+    .detalle p{
+        font-size: 1.7vw;
+    }
+    .gmapa{  
+    
+        float: none;
+        
+        width: 750px;
+        height: 300px;
+    }
+    .gmapa iframe{
+        padding-left: 6vw;
+        width: 670px;
+        height: 300px;
+    }
+
+
+    /* CATALOGO */
+
+
+    /* ------ CATALOGO ----- */
+    main p{
+        font-size: 2vw ;
+    }
+     /* ---- FOOTER ---- */
+    footer{
+        height: 10vw;
+    }
+    .iconos span{
+        font-size: 1.7vw;
+        padding: 0.5em;
+    }
+    .iconos {
+        font-size: 1.7VW;
+    }
+     /* ---- FIN FOOTER ---- */
+    
+     /* ---- FOOTER INDEX ---- */
+    
+     
+    .iconosInicio{
+        font-size: 2VW;
+   
+    }
+    
+    .iconoInicio > span{
+        font-size: 2vw;
+        padding: 0.7em;
+    }
+    /* ---- FIN FOOTER INDEX ---- */
+}
+<!-- @media screen and (min-width: 500px) and (max-width: 800px) { ... }
+    https://developer.mozilla.org/es/docs/Learn/Forms/Form_validation-->
