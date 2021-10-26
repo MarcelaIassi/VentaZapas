@@ -770,7 +770,8 @@ a{
     }
     /* ---- FIN FOOTER ---- */
 }
-@media (min-width:1201px){
+@media screen and (min-width:1201px) and (max-width:1400px){
+/*@media (min-width:1201px){*/
   /*  INDEX  */
     #LogoInicio {
         margin-top: 6%;
