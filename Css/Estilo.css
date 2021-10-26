@@ -408,7 +408,7 @@ a{
 @media screen and (min-width: 480px) and (max-width: 767px){
     /*  INDEX  */
     #LogoInicio {
-        margin-top: 25%;
+        margin-top: 15%;
     }
     /*  --- FIN INDEX --- */
 
@@ -799,7 +799,7 @@ a{
     }
     .descripcionnosotros{
         font-size: 1.5vw;
-        padding-left: 21vw;
+        padding-left: 22vw;
     }
     /* ---- FIN HEADER -----*/
 
