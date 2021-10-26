@@ -59,13 +59,11 @@ body{
 }
 /*-------INDEX-----------*/
 
-
-/* ENCABEZADO*/
+/* HEADER */
 header{
     height: auto;
     width: auto; 
 }
-
 .encabezado{
     display: flex;
     height: 7em;
@@ -79,8 +77,6 @@ header{
     width: 800px;
     height: auto; 
 }
-
-
 .subtitulo{
     /*text-align: center; */
     color:black;
@@ -96,15 +92,13 @@ header{
     font-weight: bold;
     padding-left: 17vw;
 }
-
 .descripcionnosotros{
     text-align:left; 
     padding-left: 15rem;
     color: red;
     font-weight: bold; 
 }
-
-/*-------- FIN ENCABEZADO -------*/
+/*-------- FIN HEADER -------*/
 
 /*BARRA DE MENU*/
 nav{
@@ -147,9 +141,6 @@ section{
 }
 main>div{
     text-align: center;
- /*   border: 0.5em red solid;
- /*   height: 400px;*/
- 
 }
  main div img{
     width: 25%;
@@ -167,7 +158,6 @@ h4 a{
     color: red;
     padding: 1vw;
 }
-
 /*------ FIN DESTACADOS ------*/
 
 /* FORMULARIO CONTACTO */
@@ -179,21 +169,12 @@ form{
     text-align: left;
     border: 0.5rem black solid;
 }
-/*.warnings{
-    width: 200px;
-    text-align: center;
-    margin: auto;
-    color: chartreuse;
-    padding-top: 20px;
-}
-/*---- FORMULARIO CONTACTO------------*/
-
+/*---- FIN FORMULARIO CONTACTO------------*/
 
 /*NOSOTROS*/
 h1{
     padding-left: 10vw;
 }
-
 .resumen{
     flex: auto;
     max-height:auto;
@@ -217,8 +198,6 @@ h1{
     padding: 1vw;
 }
 .gmapa{   
-   /* max-width: 500px;
-    max-height: 700px;*/
     float: right; 
 }
 .detalle p{
@@ -229,10 +208,9 @@ h1{
 }
 .gmapa iframe{
     width: 500px;
-    height: 300px;
+    height: 300px; 
 }
 /* --- FIN NOSOTROS --*/
-
 
 /* CATALOGO  */
 main{
@@ -291,128 +269,115 @@ a{
  }
 /* ---- FIN FOOTER INDEX ---- */
 
-@media (max-width:320px){
-    
-    /*#LogoInicio {
+/*@media (max-width:320px){*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #LogoInicio {
         text-align: center;
-        margin-top: 70%;
-       
-    }*/
-    .Logo{
-        width: 35%;
-        height: 15vw;
-        padding: 0.1em;
-    }
-    .Logo img{
-        margin-top: 3px;
-        margin-left: 3px;
-        width: 100%;
+        margin-top: 3%;
     }
     .encabezado{
-        height: 3em;
+        height: 3.5em;
+    }
+    .Logo{
+        width: 50px;
+        height: 10vw;
+        padding: 0.2em;
+    }
+    .Logo img{
+        margin-top: 5px;
+        margin-left: 5px;
+        padding-top: 5px;
+        padding-left: 5px;
+        width: 40px;
+    }
+    .titulo{
+        width: 300px;
+        height: auto; 
     }
     .subtitulo{
-          /*text-align: center; */
-        padding-left: 5rem;
-        font-size: 3vw;
+        /*text-align: center; */
         padding-top: 1.5rem;
+        padding-left: 5rem;
+        font-size: 2.7vw;
     }
-       
     .descripcionnosotros{
-        font-size: 1vw;
-        padding-left: 30vw;
+        font-size: 1.3vw;
+        padding-left: 5.2rem;
     }
-    .mapa{
-        
-        font-size: 1vw;
-        padding-left: 17vw;
-        margin-left: 1vw;
-    }
-    
-
+   
     /* BARRA DE MENU */
     .menu{
         text-align: right;
         font-size: 0.5em;
-        height: 8vw;
-       
+        height: 5vw;
     }
     .menu a{
-        padding: 0.5rem;
+        padding: 0.3rem;
     }
     /* --- FIN BARRA DE MENU ---*/
     
     /* DESTACADOS */
     h2{
         font-size: 0.5em;
-        padding: 0.5rem;
+        padding: 0.3rem;
         margin-bottom: 0.8rem;
         border-bottom: black 0.1vw solid;
-        height: 7.5vw;
-    }
-   
-    main div img{
-        width: 25%; 
+        height: 5vw;
     }
     h4{
-        padding: 0.1rem;  
-    }
+        padding: 0.1rem;
+        font-size: 1.5vw;
     
+    }
     /* ----FIN DESTACADOS ---- */
  
     /* CONTACTO */
     .h3{
         font-size: 1em;
     }
-    /*form{
-        font-size: 10PX;
-    
-    }*/
-
+    form{
+        border-top: 0.1rem black solid;
+    }
     /* ---- FIN CONTACTO ---- */
     
     /* NOSOTROS */
-    
     .resumen{
-        min-height: 350px;
+        max-width: 350px;
         max-height: 400px;
     }
     .nosotros{
         display: inline-block;
-    
-        height: 450px;
-
+        height: 300px;
         margin: 3vw 3vw 0vw 3vw;
     }
     .detalle{   
-       width: 300px;
+        padding-left: 3vw;
+        max-width: 300px;
         height: 130px;
     }
     .detalle h1{
         font-size: 2.5vw;
     }
     .detalle p{
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
     .gmapa{  
-    
         float: none;
         padding: 3vw ;
-        width: 300px;
+        max-width: 300px;
         height: 120px;
     }
     .gmapa iframe{
-        width: 275px;
+        max-width: 280px;
         height: 100px;
     }
     /* CATALOGO */
-
-
-    /* ------ CATALOGO ----- */
     main p{
         font-size: 2vw ;
     }
-     /* ---- FOOTER ---- */
+    /* ------ FIN CATALOGO ----- */
+    
+    /* ---- FOOTER ---- */
     footer{
         height: 10vw;
     }
@@ -423,30 +388,154 @@ a{
     .iconos {
         font-size: 1.7VW;
     }
-     /* ---- FIN FOOTER ---- */
+    /* ---- FIN FOOTER ---- */
     
-     /* ---- FOOTER INDEX ---- */
-    
-     #LogoInicio {
+    /* ---- FOOTER INDEX ---- */
+    #LogoInicio {
         margin-top: 35%;
         text-align: center;
-     
-    
-     }
-     .iconosInicio{
+    }
+    .iconosInicio{
         font-size: 2VW;
    
     }
-    
     .iconoInicio > span{
         font-size: 2vw;
         padding: 0.7em;
     }
     /* ---- FIN FOOTER INDEX ---- */
 }
+@media screen and (min-width: 481px) and (max-width: 768px){
+    /*  INDEX  */
+    #LogoInicio {
+        margin-top: 35%;
+    }
+    /*  --- FIN INDEX --- */
+
+    /* HEADER */
+    .Logo{
+        width: 35%;
+        height: 15vw;
+        padding: 0.5em;
+    }
+    .Logo img{
+        margin-top: 2px;
+        margin-left: 2px;
+        width: 50%;
+    }
+    .encabezado{
+        height: 4em;
+    }
+    .subtitulo{
+          /*text-align: center; */
+        padding-left: 5rem;
+        font-size: 3vw;
+        padding-top: 1.3rem;
+    }
+    .descripcionnosotros{
+        font-size: 1.5vw;
+        padding-left: 5.5rem;
+    }
+    /* ---- FIN HEADER -----*/
+
+    /* BARRA DE MENU */
+    .menu{
+        text-align: right;
+        font-size: 0.7em;
+        height: 5vw;
+    }
+    .menu a{
+        padding: 0.5rem;
+    }
+    /* --- FIN BARRA DE MENU ---*/
+    
+    /* DESTACADOS */
+    h2{
+        font-size: 0.7em;
+        padding: 0.5rem;
+        margin-bottom: 0.5rem;
+        border-bottom: black 0.1vw solid;
+        height: 5vw;
+    }
+    h4{
+        padding: 0.1rem;  
+    }
+    /* ----FIN DESTACADOS ---- */
  
-@media screen and (min-width: 480px) and (max-width: 800px){
-   /*  INDEX  */
+    /* CONTACTO */
+    .h3{
+        font-size: 1em;
+    }
+    form{
+        border-top: 0.1rem black solid;
+    }
+    /* ---- FIN CONTACTO ---- */
+    
+    /* NOSOTROS */
+    .resumen{
+           max-height: 430px;
+    }
+    .nosotros{
+       display: inline-block;
+        max-width: 430px;
+        height: 450px;
+        margin: 3vw 0vw 0vw 3vw;
+    }
+    .detalle{   
+        max-width: 430px;
+        padding-left: 2vw;
+        padding-right: 0vw;
+        height: auto;
+    }
+    .detalle h1{
+        font-size: 2.5vw;
+    }
+    .detalle p{
+        font-size: 1.7vw;
+    }
+    .gmapa{  
+        float: none;
+        margin-top: 2vw;
+        max-width: 430px;
+        height: 200px;
+    }
+    .gmapa iframe{
+        padding-left: 6vw;
+        max-width: 420px;
+        height: 200px;
+    }
+
+    /* CATALOGO */
+    main p{
+        font-size: 2vw ;
+    }
+    /* ------ FIN CATALOGO ----- */
+
+    /* ---- FOOTER ---- */
+    footer{
+        height: 10vw;
+    }
+    .iconos span{
+        font-size: 1.7vw;
+        padding: 0.5em;
+    }
+    .iconos {
+        font-size: 1.7VW;
+    }
+    /* ---- FIN FOOTER ---- */
+    
+    /* ---- FOOTER INDEX ---- */
+    .iconosInicio{
+        font-size: 2VW;
+    }
+    .iconoInicio > span{
+        font-size: 2vw;
+        padding: 0.7em;
+    }
+    /* ---- FIN FOOTER INDEX ---- */
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    /*  INDEX  */
     #LogoInicio {
         margin-top: 15%;
     }
@@ -456,89 +545,73 @@ a{
     .Logo{
         width: 15%;
         height: 15vw;
-        padding: 0.2em;
+        padding: 0.5em;
     }
     .Logo img{
-        margin-top: 2px;
-        margin-left: 2px;
-        width: 60%;
+        margin-top: 3px;
+        margin-left: 3px;
+        width: 70%;
     }
     .encabezado{
-        height: 4.5em;
+        height: 6em;
     }
     .subtitulo{
-          /*text-align: center; */
+      /*text-align: center; */
         padding-left: 12rem;
         font-size: 3vw;
-        padding-top: 1rem;
+        padding-top: 1.5rem;
     }
-       
     .descripcionnosotros{
         font-size: 1.5vw;
-        padding-left: 26vw;
+        padding-left: 27vw;
     }
-    /*.mapa{
-        
-        font-size: 1vw;
-        padding-left: 17vw;
-        margin-left: 1vw;
-    }*/
     /* ---- FIN HEADER -----*/
 
     /* BARRA DE MENU */
     .menu{
         text-align: right;
-        font-size: 0.9em;
-        height: 4.5vw;
-       
+        font-size: 1em;
+        height: 5vw;
+        padding-top: 0.3em;
     }
     .menu a{
         padding: 0.5rem;
     }
     /* --- FIN BARRA DE MENU ---*/
-    
+
     /* DESTACADOS */
     h2{
-        font-size: 0.9em;
+        font-size: 1.2em;
         padding: 0.5rem;
         margin-bottom: 0.5rem;
         border-bottom: black 0.1vw solid;
-        height: 5vw;
-    }
-   
-    main div img{
-        width: 25%; 
+        height: 4vw;
     }
     h4{
         padding: 0.1rem;  
     }
-    
     /* ----FIN DESTACADOS ---- */
- 
+
     /* CONTACTO */
     .h3{
         font-size: 1em;
     }
-    
-
     /* ---- FIN CONTACTO ---- */
-    
+
     /* NOSOTROS */
-    
     .resumen{
-        min-height: 650px;
-        max-height: 450px;
+      /*  min-height: 750px;*/
+        max-height: 600px;
     }
     .nosotros{
-        display: inline-block;
-        width: 750px;
+        /*display: inline-block;*/
+        width: 650px;
         height: 450px;
-
         margin: 3vw 0vw 0vw 3vw;
     }
     .detalle{   
-        width: 750px;
-        padding-left: 3.5vw;
+        width: 450px;
+        padding-left: 2vw;
         padding-right: 0vw;
         height: 250px;
     }
@@ -549,27 +622,22 @@ a{
         font-size: 1.7vw;
     }
     .gmapa{  
-    
-        float: none;
-        
-        width: 750px;
-        height: 300px;
+        /*float: none;*/
+        width: 350px;
+        height: 350px;
     }
     .gmapa iframe{
         padding-left: 6vw;
-        width: 670px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
     }
-
-
     /* CATALOGO */
-
-
-    /* ------ CATALOGO ----- */
     main p{
         font-size: 2vw ;
     }
-     /* ---- FOOTER ---- */
+    /* ------ FIN CATALOGO ----- */
+   
+    /* ---- FOOTER ---- */
     footer{
         height: 10vw;
     }
@@ -580,21 +648,244 @@ a{
     .iconos {
         font-size: 1.7VW;
     }
-     /* ---- FIN FOOTER ---- */
-    
-     /* ---- FOOTER INDEX ---- */
-    
-     
+    /* ---- FIN FOOTER ---- */
+
+    /* ---- FOOTER INDEX ---- */
     .iconosInicio{
         font-size: 2VW;
-   
     }
-    
     .iconoInicio > span{
         font-size: 2vw;
         padding: 0.7em;
     }
     /* ---- FIN FOOTER INDEX ---- */
 }
-<!-- @media screen and (min-width: 500px) and (max-width: 800px) { ... }
-    https://developer.mozilla.org/es/docs/Learn/Forms/Form_validation-->
+@media screen and (min-width:1025px) and (max-width:1200px){
+    /*  INDEX  */
+    #LogoInicio {
+        margin-top: 25%;
+    }
+    /*  --- FIN INDEX --- */
+ 
+    /* HEADER */
+    .Logo{
+        width: 15%;
+        height: 15vw;
+        padding: 0.5em;
+    }
+     .Logo img{
+        margin-top: 3px;
+        margin-left: 3px;
+        width: 50%;
+     }
+    .encabezado{
+        height: 6em;
+     }
+    .subtitulo{
+       /*text-align: center; */
+        padding-left: 16rem;
+        font-size: 3vw;
+        padding-top: 1.5rem;
+    }
+    .descripcionnosotros{
+        font-size: 1.5vw;
+        padding-left: 27vw;
+     }
+    /* ---- FIN HEADER -----*/
+ 
+     /* BARRA DE MENU */
+    .menu{
+        text-align: right;
+        font-size: 1em;
+        height: 5vw;
+        padding-top: 0.3em;
+    }
+    .menu a{
+        padding: 0.5rem;
+    }
+    /* --- FIN BARRA DE MENU ---*/
+ 
+    /* DESTACADOS */
+    h2{
+        font-size: 1.2em;
+        padding: 0.5rem;
+        margin-bottom: 0.5rem;
+        border-bottom: black 0.1vw solid;
+        height: 4vw;
+    }
+    h4{
+        padding: 0.1rem;  
+    }
+    /* ----FIN DESTACADOS ---- */
+ 
+    /* CONTACTO */
+    .h3{
+        font-size: 1em;
+    }
+    /* ---- FIN CONTACTO ---- */
+ 
+    /* NOSOTROS */
+    .resumen{
+        min-height: 460px; 
+    }
+    .nosotros{
+        display: inline-block;
+        min-width: 1000px;
+        height: 460px;
+        margin: 3vw 0vw 0vw 3vw;
+    }
+    .detalle{   
+        width: 500px;
+        padding-left: 1vw;
+        padding-right: 0vw;
+        height: 460px;
+    }
+    .detalle h1{
+        font-size: 2.5vw;
+    }
+    .detalle p{
+        font-size: 1.7vw;
+    }
+    .gmapa{  
+        float: rigth;
+        padding-right: 2vw;
+        width: 450px;
+        height: 450px;
+    }
+    .gmapa iframe{
+        width: 400px;
+        height: 400px;
+    }
+    /* ---- FIN NOSOTROS ---- */
+    
+    /* CATALOGO */
+    main p{
+        font-size: 2vw ;
+    }
+    /* ------ FIN CATALOGO ----- */
+    
+    /* ---- FOOTER ---- */
+    footer{
+        height: 10vw;
+    }
+    /* ---- FIN FOOTER ---- */
+}
+@media (min-width:1201px){
+  /*  INDEX  */
+    #LogoInicio {
+        margin-top: 6%;
+    }
+    /*  --- FIN INDEX --- */
+
+    /* HEADER */
+    .encabezado{
+        height: 7em;
+    }
+    .Logo{
+        width: 20%;
+        height: 20vw;
+        padding: 0.3em;
+    }
+    .Logo img{
+        margin-top: 3px;
+        margin-left: 3px;
+        width: 40%;
+    }
+    .subtitulo{
+        /*text-align: center; */
+        padding-left: 15rem;
+        font-size: 3vw;
+        padding-top: 2rem;
+    }
+    .descripcionnosotros{
+        font-size: 1.5vw;
+        padding-left: 19vw;
+    }
+    /* ---- FIN HEADER -----*/
+
+    /* BARRA DE MENU */
+    .menu{
+        text-align: right;
+        font-size: 1.4em;
+        height: 4.5vw;
+        padding-top: 0.3em;
+    }
+    .menu a{
+        padding: 0.5rem;
+    }
+    /* --- FIN BARRA DE MENU ---*/
+
+    /* DESTACADOS */
+    h2{
+        font-size: 1.7em;
+        padding: 0.5rem;
+        margin-bottom: 0.5rem;
+        border-bottom: black 0.1vw solid;
+        height: 4vw;
+    }
+    /*----- FIN DESTACADOS -----*/  
+
+    /* NOSOTROS */
+    .resumen{
+        min-height: 460px;
+        min-width: 1025px;
+    }
+    .nosotros{
+        /*display: inline-block;*/
+        min-width: 1025px;
+        height: 460px;
+        margin: 3vw 0vw 0vw 3vw;
+    }
+    .detalle{   
+        width: 650px;
+        padding-left: 2vw;
+        padding-right: 0vw;
+        height: 460px;
+    }
+    .detalle h1{
+        font-size: 2.5vw;
+    }
+    .detalle p{
+        font-size: 1.7vw;
+    }
+    .gmapa{  
+        /*float: none;*/
+        width: 550px;
+        height: 450px;
+    }
+    .gmapa iframe{
+        padding-left: 6vw;
+        width: 500px;
+        height: 400px;
+    }
+
+    /* CATALOGO */
+        main p{
+            font-size: 2vw ;
+        }
+
+    /* ------ FIN CATALOGO ----- */
+    
+    /* ---- FOOTER ---- */
+    footer{
+        height: 10vw;
+    }
+    .iconos span{
+        font-size: 1.7vw;
+        padding: 0.5em;
+    }
+    .iconos {
+        font-size: 1.7VW;
+    }
+    /* ---- FIN FOOTER ---- */
+
+    /* ---- FOOTER INDEX ---- */
+    .iconosInicio{
+        font-size: 2VW;
+    }
+    .iconoInicio > span{
+        font-size: 2vw;
+        padding: 0.7em;
+    }
+    /* ---- FIN FOOTER INDEX ---- */
+}
