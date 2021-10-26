@@ -770,8 +770,7 @@ a{
     }
     /* ---- FIN FOOTER ---- */
 }
-@media screen and (min-width:1201px) and (max-width:1400px){
-/*@media (min-width:1201px){*/
+*@media (min-width:1201px){
   /*  INDEX  */
     #LogoInicio {
         margin-top: 6%;
@@ -793,6 +792,7 @@ a{
         width: 38%;
     }
     .subtitulo{
+        color:red;
         /*text-align: center; */
         padding-left: 14rem;
         font-size: 3vw;
