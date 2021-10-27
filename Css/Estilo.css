@@ -10,7 +10,7 @@ body{
     
     /* background-image: linear height: 6em;-gradient(120deg, #5e7ad6 0%, #8fe8f4 100%);*/
     
-    width: 100%;
+    width: auto;
     height: auto;
     
     
@@ -266,14 +266,14 @@ a{
     text-decoration: none;
     padding: 0.1em;
     Color: black
- }
+}
 /* ---- FIN FOOTER INDEX ---- */
 
 /*@media (max-width:320px){*/
 @media screen and (min-width: 320px) and (max-width: 479px) {
     #LogoInicio {
         text-align: center;
-        margin-top: 3%;
+        margin-top: 5%;
     }
     .encabezado{
         height: 3.5em;
@@ -298,18 +298,18 @@ a{
         /*text-align: center; */
         padding-top: 1.5rem;
         padding-left: 5rem;
-        font-size: 2.7vw;
+        font-size: 3vw;
     }
     .descripcionnosotros{
-        font-size: 1.3vw;
+        font-size: 1.5vw;
         padding-left: 5.2rem;
     }
    
     /* BARRA DE MENU */
     .menu{
         text-align: right;
-        font-size: 0.5em;
-        height: 5vw;
+        font-size: 0.6em;
+        height: 6.5vw;
     }
     .menu a{
         padding: 0.3rem;
@@ -318,15 +318,15 @@ a{
     
     /* DESTACADOS */
     h2{
-        font-size: 0.5em;
+        font-size: 0.6em;
         padding: 0.3rem;
         margin-bottom: 0.8rem;
         border-bottom: black 0.1vw solid;
-        height: 5vw;
+        height: 6vw;
     }
     h4{
         padding: 0.1rem;
-        font-size: 1.5vw;
+        font-size: 1.9vw;
     
     }
     /* ----FIN DESTACADOS ---- */
@@ -356,10 +356,10 @@ a{
         height: 130px;
     }
     .detalle h1{
-        font-size: 2.5vw;
+        font-size: 2.8vw;
     }
     .detalle p{
-        font-size: 2vw;
+        font-size: 2.3vw;
     }
     .gmapa{  
         float: none;
@@ -382,11 +382,11 @@ a{
         height: 10vw;
     }
     .iconos span{
-        font-size: 1.7vw;
+        font-size: 1.9vw;
         padding: 0.5em;
     }
     .iconos {
-        font-size: 1.7VW;
+        font-size: 1.9VW;
     }
     /* ---- FIN FOOTER ---- */
     
@@ -396,45 +396,46 @@ a{
         text-align: center;
     }
     .iconosInicio{
-        font-size: 2VW;
+        font-size: 2.4VW;
    
     }
     .iconoInicio > span{
-        font-size: 2vw;
+        font-size: 2.4vw;
         padding: 0.7em;
     }
     /* ---- FIN FOOTER INDEX ---- */
 }
-@media screen and (min-width: 480px) and (max-width: 767px){
+@media screen and (min-width: 480px) and (max-width: 568px){
     /*  INDEX  */
     #LogoInicio {
-        margin-top: 35%;
+        margin-top: 15%;
     }
     /*  --- FIN INDEX --- */
 
     /* HEADER */
     .Logo{
-        width: 35%;
-        height: 15vw;
-        padding: 0.5em;
+        max-width: 40em;
+        max-height: 40em;
+        padding: 0.7em;
     }
     .Logo img{
         margin-top: 2px;
         margin-left: 2px;
-        width: 50%;
+        max-width: 40em;
     }
     .encabezado{
-        height: 4em;
+        max-height: 4em;
     }
     .subtitulo{
           /*text-align: center; */
-        padding-left: 5rem;
+        
+        padding-left: 3em;
         font-size: 3vw;
-        padding-top: 1.3rem;
+        padding-top: 1.3em;
     }
     .descripcionnosotros{
         font-size: 1.5vw;
-        padding-left: 5.5rem;
+        padding-left: 7em;
     }
     /* ---- FIN HEADER -----*/
 
@@ -473,16 +474,17 @@ a{
     
     /* NOSOTROS */
     .resumen{
-           max-height: 430px;
+        max-width: 27em;
+        max-height: 430px;
     }
     .nosotros{
-       display: inline-block;
-        max-width: 430px;
+        display: inline-block;
+        max-width: 27em;
         height: 450px;
         margin: 3vw 0vw 0vw 3vw;
     }
     .detalle{   
-        max-width: 430px;
+        max-width: 27em;
         padding-left: 2vw;
         padding-right: 0vw;
         height: auto;
@@ -496,12 +498,144 @@ a{
     .gmapa{  
         float: none;
         margin-top: 2vw;
-        max-width: 430px;
+    
+        max-width: 27em;
         height: 200px;
     }
     .gmapa iframe{
         padding-left: 6vw;
-        max-width: 420px;
+    
+        max-width: 27em;
+        height: 200px;
+    }
+
+    /* CATALOGO */
+    main p{
+        font-size: 2vw ;
+    }
+    /* ------ FIN CATALOGO ----- */
+
+    /* ---- FOOTER ---- */
+    footer{
+        height: 10vw;
+    }
+    .iconos span{
+        font-size: 1.7vw;
+        padding: 0.5em;
+    }
+    .iconos {
+        font-size: 1.7VW;
+    }
+    /* ---- FIN FOOTER ---- */
+    
+    /* ---- FOOTER INDEX ---- */
+    .iconosInicio{
+        font-size: 2VW;
+    }
+    .iconoInicio > span{
+        color: red;
+        font-size: 2vw;
+        padding: 0.7em;
+    }
+    /* ---- FIN FOOTER INDEX ---- */
+}
+@media screen and (min-width: 569px) and (max-width: 767px){
+    /*  INDEX  */
+    #LogoInicio {
+        margin-top: 20%;
+    }
+    /*  --- FIN INDEX --- */
+
+    /* HEADER */
+    .Logo{
+        width: 35%;
+        height: 15vw;
+        padding: 0.5em;
+    }
+    .Logo img{
+        margin-top: 2px;
+        margin-left: 2px;
+        width: 3em;
+    }
+    .encabezado{
+        height: 4em;
+    }
+    .subtitulo{
+      
+        padding-left: 5rem;
+        font-size: 3vw;
+        padding-top: 1.3rem;
+    }
+    .descripcionnosotros{
+        font-size: 1.5vw;
+        padding-left: 5.5rem;
+    }
+    /* ---- FIN HEADER -----*/
+
+    /* BARRA DE MENU */
+    .menu{
+        text-align: right;
+        font-size: 0.7em;
+        height: 5vw;
+    }
+    .menu a{
+        padding: 0.5rem;
+    }
+    /* --- FIN BARRA DE MENU ---*/
+    
+    /* DESTACADOS */
+    h2{
+        font-size: 0.8em;
+        padding: 0.5rem;
+        margin-bottom: 0.5rem;
+        border-bottom: black 0.1vw solid;
+        height: 5vw;
+    }
+    h4{
+        padding: 0.1rem;  
+    }
+    /* ----FIN DESTACADOS ---- */
+ 
+    /* CONTACTO */
+    .h3{
+        font-size: 1em;
+    }
+    form{
+        border-top: 0.1rem black solid;
+    }
+    /* ---- FIN CONTACTO ---- */
+    
+    /* NOSOTROS */
+    .resumen{
+        max-height: 700px;
+    }
+    .nosotros{
+       display: inline-block;
+        max-width: 700px;
+        height: 450px;
+        margin: 3vw 0vw 0vw 3vw;
+    }
+    .detalle{   
+        max-width: 700px;
+        padding-left: 2vw;
+        padding-right: 0vw;
+        height: auto;
+    }
+    .detalle h1{
+        font-size: 2.5vw;
+    }
+    .detalle p{
+        font-size: 1.7vw;
+    }
+    .gmapa{  
+        float: none;
+        margin-top: 2vw;
+        max-width: 710px;
+        height: 200px;
+    }
+    .gmapa iframe{
+        padding-left: 6vw;
+        max-width: 700px;
         height: 200px;
     }
 
@@ -789,10 +923,11 @@ a{
     .Logo img{
         margin-top: 3px;
         margin-left: 3px;
-        width: 40%;
+        width: 38%;
     }
     .subtitulo{
         /*text-align: center; */
+       
         padding-left: 15rem;
         font-size: 3vw;
         padding-top: 2rem;
